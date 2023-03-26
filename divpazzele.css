@@ -1,0 +1,29 @@
+.header {
+  width: 400px;
+  height: 100px;
+  background-color: #ff0000;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main-first-wrapper {
+  width:150px ;
+  height:250px ;
+  background-color: #00ff1e;
+  float: left;
+}
+
+.main-second-wrapper {
+  width: 250px;
+  height: 250px;
+  background-color: #3300ff;
+  float: left;
+}
+
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #ffe600;
+}
